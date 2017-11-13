@@ -4,7 +4,7 @@ document.addEventListener("deviceready", onDeviceReady, false);
 function onDeviceReady(){
     
     alert("something");
-    $('#submitbutton').on("click",getAnswer);   
+    $('#submitButton').on("click",getAnswer);   
 }
 
 function getAnswer(){
