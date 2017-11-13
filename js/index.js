@@ -19,7 +19,7 @@ function random() {
     navigator.notification.beep(1);
        
         }
-    else (val == false) {
+    else {
     navigator.notification.beep(2);
        
         }
