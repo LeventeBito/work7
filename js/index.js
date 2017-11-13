@@ -1,8 +1,12 @@
 function random() {
 	var val = !Math.round(Math.random());
-    
-    if (val = true) {
+     alert(val);
+    if (val == true) {
     navigator.notification.beep(1);
-        alert(val);
+       
+        }
+    if (val == false) {
+    navigator.notification.beep(2);
+       
         }
 }
